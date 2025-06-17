@@ -1,12 +1,51 @@
-# React + Vite
+# Cafe Claude - AI Recipe Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Cafe Claude is a simple React-based application that uses Hugging Face's Mixtral model to generate creative recipes from a list of user-provided ingredients.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add ingredients dynamically
+- Generate a recipe using Hugging Face's Mixtral-8x7B model
+- Recipes are displayed in clean, formatted Markdown
+- Secure handling of API tokens using environment variables
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the Repository
+
+git clone https://github.com/your-username/cafe-claude.git
+cd cafe-claude
+
+### 2. Install Dependencies
+ 
+ npm install
+
+### 3. Create a Hugging Face API Token
+
+Sign in at https://huggingface.co
+
+Navigate to Settings > Access Tokens
+
+Generate a token with "read" access
+
+### 4. Set Up Environment Variables
+
+Create a .env file in the root of the project and add your token:
+
+VITE_HF_ACCESS_TOKEN=your_token_here
+
+### Running the App Locally
+
+npm run dev
+
+
+### Folder Structure
+
+src/
+│
+├── api.js             # API logic to connect to Hugging Face
+├── App.jsx            # Main app component
+├── Header.jsx         # Header UI
+├── Main.jsx           # Main functionality (form, list, recipe)
+├── index.jsx          # Entry point for React
+├── index.css          # Global styling
