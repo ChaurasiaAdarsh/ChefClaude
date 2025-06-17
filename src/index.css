@@ -107,3 +107,12 @@ ul.ingredients-list > li {
     font-size: 0.875rem;
     cursor: pointer;
 }
+
+
+
+.recipe-output {
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
