@@ -43,9 +43,15 @@ npm run dev
 
 src/
 │
+
 ├── api.js             # API logic to connect to Hugging Face
+
 ├── App.jsx            # Main app component
+
 ├── Header.jsx         # Header UI
+
 ├── Main.jsx           # Main functionality (form, list, recipe)
+
 ├── index.jsx          # Entry point for React
+
 ├── index.css          # Global styling
