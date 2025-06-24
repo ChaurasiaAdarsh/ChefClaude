@@ -21,8 +21,8 @@ Cafe Claude is a simple React-based application that uses Hugging Face's Mixtral
 
 ### 1. Clone the Repository
 
-git clone https://github.com/your-username/cafe-claude.git
-cd cafe-claude
+git clone https://github.com/ChaurasiaAdarsh/ChefClaude.git
+cd ChefClaude
 
 ### 2. Install Dependencies
  
