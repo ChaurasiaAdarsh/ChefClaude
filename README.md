@@ -9,6 +9,14 @@ Cafe Claude is a simple React-based application that uses Hugging Face's Mixtral
 - Recipes are displayed in clean, formatted Markdown
 - Secure handling of API tokens using environment variables
 
+## Output
+
+![OUTPUT](output/1st.png)
+![OUTPUT](output/2nd.png)
+![OUTPUT](output/3rd.png)
+![OUTPUT](output/4th.png)
+
+
 ## Getting Started
 
 ### 1. Clone the Repository
